@@ -1,0 +1,42 @@
+@import "../../utils/default.css";
+
+
+
+@media screen and (min-width: 600px) {
+    .carosoul_size{
+        height: 500px;
+        width: 100%;
+    }
+    .box{
+        /* margin-left: 10px;
+        /* width: 100%; */
+        margin-top: 65px; 
+    }
+.text_box{
+   height: 350px;
+   width: 400px;
+   margin-bottom: 25px;
+   padding: 10px;
+   padding-top: 30px;
+   padding-bottom: 30px;
+   justify-content: center;
+   display: flex;
+        opacity: 0.8;
+      background-color: aliceblue;
+}
+}
+@media screen and (max-width: 600px) {
+.text_box{
+    /* height: 350px;
+    width: 400px; */
+    margin-top: 70%;
+    margin-bottom: 25px;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    justify-content: center;
+    display: flex;
+         opacity: 0.8;
+       background-color: aliceblue;
+ }
+}

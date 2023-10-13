@@ -1,0 +1,63 @@
+@import "../../utils/default.css";
+
+
+.logo{
+    font-family: fantasy;
+    color: black!important;
+    font-size: larger;
+    font-style: italic;
+    font-weight: 400;
+    text-shadow: 1px 2px dimgray;
+ 
+
+}
+.logo_side{
+    width: 40%;
+}
+.color_part{
+    /* width: 100%; */
+    height: 9vh;
+    color: var(--textColor2);
+    background-color: var(--backgroundhighlighing);
+}
+
+@media screen and (min-width: 600px) {
+.shift_right{
+    margin-right: 17rem;
+}
+.dw{
+    width: 100%;
+    /* background-color:  #d14242!important; */
+}
+.spacing{
+    margin-left: 14px;
+    margin-right: 14px;
+    color: var(--textColor2);
+}
+.spacing:hover{
+   
+    color: var(--textColor1);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+}
+@media screen and (max-width: 600px) {
+.center{
+    display: flex;
+    text-align: center;
+}
+.text_size{
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.size{
+    height: 40px !important;
+    line-height: 40px !important;
+    padding: 0 0 0 20px !important;
+}
+.spacing:hover{
+    color: red;
+    font-weight: 600;
+}
+
+}

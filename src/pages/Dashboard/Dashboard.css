@@ -1,0 +1,22 @@
+@import "../../utils/default.css";
+
+.backgroud {
+	width: 100%;
+	height: 100vh;
+	background-color: var(--backgroundColor1);
+}
+.child_section {
+	margin-top: 4.3%;
+
+
+	width: 100%;
+	/* height: 80vh; */
+	background-color: var(--backgroundColor1);
+}
+
+@media only screen and  (max-width:600px) {
+	.child_section{
+		margin-top:2.4%;
+	}
+	
+}

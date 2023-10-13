@@ -1,0 +1,21 @@
+@import "../../utils/default.css";
+
+.backgroud{
+
+    width: 100%;
+height: 100%;
+    background-color: var(--backgroundColor1);
+    
+}
+.carosoul_size{
+    height: 450px;
+    width: 100%;
+}
+.box{
+    /* margin-left: 40px;
+    margin-right: 40px; */
+}
+@media only screen and  (max-width:600px) {
+
+	
+}

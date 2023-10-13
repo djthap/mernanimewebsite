@@ -1,0 +1,43 @@
+@import "../../utils/default.css";
+
+.card {
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+@media screen and (min-width: 600px) {
+	.size{
+		
+	}
+}
+
+.bg {
+	border: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	background-color: var(--backgroundColor1);
+}
+.bg_card {
+	color: azure;
+	font-size: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: var(--backgroundColor2);
+	transition: all 0.2s ease-in-out;
+	height: 100%;
+}
+.bg_card img {
+	height: 200;
+	width: 200;
+}
+.bg_card:hover {
+	cursor: pointer;
+	/* box-shadow: 2px 2px 2px 2px #a0a0a0;
+    */
+
+	transform: scale(0.6);
+}
+.text {
+	font-size: 10px;
+	color: black;
+}
