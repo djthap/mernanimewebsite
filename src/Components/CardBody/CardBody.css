@@ -7,6 +7,9 @@
     /* margin: 1px; */
     margin-bottom: 20px;
 }
+.card{
+  background-color: var(--backgroundColor3);
+}
 .box{
    
     padding: 2px;
