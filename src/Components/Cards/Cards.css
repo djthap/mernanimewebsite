@@ -3,6 +3,7 @@
 .card {
 	padding-left: 5px;
 	padding-right: 5px;
+	background-color: var(--backgroundColor2);
 }
 
 @media screen and (min-width: 600px) {
