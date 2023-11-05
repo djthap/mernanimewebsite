@@ -1,9 +1,15 @@
 @import "../../utils/default.css";
 
+.header_par{
+    background-color: var(--backgroundColor1);
 
+}
+.size{
+    color: (--textColor1);
+}
 .logo{
     font-family: fantasy;
-    color: black!important;
+   
     font-size: larger;
     font-style: italic;
     font-weight: 400;
@@ -11,14 +17,17 @@
  
 
 }
+.drop{
+    color: aliceblue!important;
+}
 .logo_side{
     width: 40%;
 }
 .color_part{
     /* width: 100%; */
     height: 9vh;
-    color: var(--textColor2);
-    background-color: var(--backgroundhighlighing);
+    color: var(--textColor1);
+    background-color: var(--backgroundColor1);
 }
 
 @media screen and (min-width: 600px) {
@@ -32,13 +41,14 @@
 .spacing{
     margin-left: 14px;
     margin-right: 14px;
-    color: var(--textColor2);
+    color: var(--textColor1);
 }
 .spacing:hover{
    
-    color: var(--textColor1);
+    color: var(--textColor1)!important;
     font-weight: 600;
     text-transform: uppercase;
+    color:  var(--backgroundhighlighing)!important;
 }
 }
 @media screen and (max-width: 600px) {
@@ -49,6 +59,7 @@
 .text_size{
     font-weight: 600;
     text-transform: uppercase;
+   color:  var(--backgroundhighlighing);
 }
 .size{
     height: 40px !important;

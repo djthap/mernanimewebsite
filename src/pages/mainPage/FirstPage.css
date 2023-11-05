@@ -4,7 +4,8 @@
 
     width: 100%;
 height: 100%;
-    background-color: var(--backgroundColor1);
+    background-color: var(--backgroundColor2);
+  
     
 }
 .carosoul_size{
@@ -14,6 +15,10 @@ height: 100%;
 .box{
     /* margin-left: 40px;
     margin-right: 40px; */
+}
+.space{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 @media only screen and  (max-width:600px) {
 

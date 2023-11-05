@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmy_app=self.webpackChunkmy_app||[]).push([[61],{9061:function(e,n,s){s.r(n),s.d(n,{default:function(){return a}});s(2791),s(4818);var c=s(5380),r=(s(9280),s(5452)),t=s(184);function a(){return(0,t.jsxs)("div",{className:"backgroud",children:[(0,t.jsx)(c.Z,{}),(0,t.jsx)("h2",{className:"d-flex text-dark justify-content-center space",children:"Anime Trending"}),(0,t.jsx)("div",{children:(0,t.jsx)(r.Z,{})})]})}}}]);
+//# sourceMappingURL=61.d1672120.chunk.js.map

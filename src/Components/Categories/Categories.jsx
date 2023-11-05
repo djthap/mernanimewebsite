@@ -1,8 +1,7 @@
 import React, { useState ,useEffect } from "react";
-import Card from "react-bootstrap/Card";
-import ListGroup from "react-bootstrap/ListGroup";
+
 import { advanceSeach, getTrending } from "../../actions/Anime";
-import Loader from "../Loader/Loader";
+
 import "./Cards.css";
 import CardBody from "../CardBody";
 

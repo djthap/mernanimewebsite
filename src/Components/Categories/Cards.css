@@ -1,0 +1,5 @@
+@import "../../utils/default.css";
+
+.bg{
+background-color: (--backgroundColor2);
+}

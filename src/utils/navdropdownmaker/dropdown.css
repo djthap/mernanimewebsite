@@ -1,0 +1,9 @@
+.text{
+    color: aliceblue!important;
+}
+.nav-link{
+    color: aliceblue!important;
+}
+.nav-link:hover{
+    color:  var(--backgroundhighlighing)!important;
+}

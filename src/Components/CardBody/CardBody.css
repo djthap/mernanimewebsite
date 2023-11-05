@@ -1,0 +1,38 @@
+@import '../../utils/default.css';
+
+.cardBody{
+  background-color: var(--backgroundColor3);
+    border: none;
+    height: 450px;
+    /* margin: 1px; */
+    margin-bottom: 20px;
+}
+.box{
+   
+    padding: 2px;
+}
+.rating_title{
+  background-color: var(--backgroundhighlighing);
+  color: var(--textColor1);
+  font-weight: 200;
+  width: 50px;
+  text-align: center;
+  
+  font-size: 15px;
+  border-radius: 10px 0px 0px 3px;
+  padding: 1px;
+  height: 20px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.gener_name{
+  background-color: var(--backgroundhighlighing);
+  color: var(--backgroundColor3);
+  font-weight: 700;
+  margin-left: 2px;
+  margin-right: 2px;
+  font-size: 10px;
+  border-radius: 2px;
+  padding: 1px;
+  height: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

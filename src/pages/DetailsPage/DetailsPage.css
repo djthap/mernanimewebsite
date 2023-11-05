@@ -1,9 +1,8 @@
 @import "../../utils/default.css";
 
-.backgroud{
-
-    width: 100%;
-
+.details_page{
+padding: 30px;
+color: var(--textColor1);
     background-color: var(--backgroundColor2);
     
 }
@@ -11,7 +10,9 @@
     height: 450px;
     width: 100%;
 }
-.box{
-    /* margin-left: 40px;
-    margin-right: 40px; */
+.details_box{
+    margin: 40px;
+    margin-top: 30px!important;
+    background-color: var(--backgroundColor2);
+ 
 }

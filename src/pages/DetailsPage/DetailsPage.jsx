@@ -7,6 +7,8 @@ import Banner from '../../Components/Carousel/Banner'
 import Loader from '../../Components/Loader/Loader'
 import Cards from '../../Components/Cards/Cards'
 import { useParams } from 'react-router-dom'
+import Anime_Details from '../../Components/Anime_Details/Anime_Details'
+import Episodes from '../../Components/Episodes/Episodes'
 
 export default function DetailsPage() {
 	const { slug } = useParams()
@@ -14,37 +16,16 @@ export default function DetailsPage() {
 
 	useEffect(() => {
 		SearchAnime(slug).then((data) => {
-			console.log(data.results[0], data.results[0].title.romaji)
-			setAnimeDetails(data.results[0])
+	
+			setAnimeDetails(data.data)
 		})
 		return () => {}
 	}, [])
 
 	return (
-		<div >
-			{animeDetails != undefined ? (
-				<div className='backgroud'>
-					<h2 className="d-flex text-light justify-content-center">
-						{animeDetails.title.english != null
-							? animeDetails.title.english
-							: animeDetails.title.native}{' '}
-						Page
-					</h2>
-		<img src={animeDetails.image} alt=" Not Found" />
-    <p>{animeDetails.description}</p>
-    {animeDetails.genres&&animeDetails.genres.map((item,index)=>{
-    <h3 key={index}>{item}</h3>
-    })}
-       <p>{animeDetails.totalEpisodes}</p>
-       <p>{animeDetails.status}</p>
-       <p>{animeDetails.rating}</p>
-       <p>{animeDetails.popularity}</p>
-				</div>
-			) : (
-				<div className="text-align-center">
-					<h1>Loading....</h1>
-				</div>
-			)}
+		<div className='details_page'>
+	<Anime_Details animeDetails={animeDetails}/>
+<Episodes animeDetails={animeDetails}/>
 		</div>
 	)
 }

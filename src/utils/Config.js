@@ -7,7 +7,7 @@ export default {
         highlight:"white",
         heading:"red"
      }  , 
-url:"https://api.consumet.org"
+url:"https://amitrasu-backend.vercel.app"
 
 
 }

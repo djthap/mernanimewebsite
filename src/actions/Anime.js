@@ -4,12 +4,12 @@ import Theme from "../utils/Config"
 export async function SearchAnime(data){
     try{ 
         
-        const response = await axios.get(`${Theme.url}/meta/anilist/${data}`,  {
+        const response = await axios.get(`${Theme.url}/meta/anilist/info/${data}?provider={9anime}        `,  {
             headers: {
             'Content-Type': 'application/json'
             }
         });
-        return response.data;
+        return response;
     }catch(e){
         return e;
     }
@@ -32,7 +32,7 @@ export async function narutoAnime(data){
 export async function advanceSeach(data){
     try{ 
         
-        const response = await axios.get(`${Theme.url}/meta/anilist/advanced-search`,  {
+        const response = await axios.get(`${Theme.url}/meta/anilist/advanced-search?query=${data}`,  {
             headers: {
             'Content-Type': 'application/json'
             }
@@ -178,10 +178,7 @@ const USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36
 export async function getAnimeVideoLink(id){
     try {
         const data = await axios.get(`${Theme.url}/anime/gogoanime/watch/${id}`, {
-            headers: {
-                'User-Agent': USER_AGENT,
-                'X-Requested-With': 'XMLHttpRequest',
-            },
+            
         });
         return data.data;
     } catch (error) {

@@ -15,7 +15,7 @@ export default function FirstPage() {
      <Banner/>
       
    
-   <h2 className="d-flex text-light justify-content-center">Anime Trending</h2>
+   <h2 className="d-flex text-dark justify-content-center space">Anime Trending</h2>
 <div>
 
     <Cards/>

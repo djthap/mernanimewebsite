@@ -4,7 +4,7 @@ import ListGroup from "react-bootstrap/ListGroup";
 import { getTrending } from "../../actions/Anime";
 import Loader from "../Loader/Loader";
 import "./Cards.css";
-import CardBody from "../CardBody";
+import CardBody from "../CardBody/CardBody";
 
 const Cards = () => {
   const [isLoading, setisLoading] = useState(false);
@@ -48,9 +48,9 @@ const Cards = () => {
         isLoading?<div className="bg"></div>:
       <div className="row  gx-0 bg ">
         {
-          cardData&&cardData.slice(0, 5).map((d,index)=>{
+          cardData&&cardData.slice(0, 6).map((d,index)=>{
             return(
-              <CardBody d={d}  index={index} key={index} size={3}/>
+              <CardBody d={d}  index={index} key={index} size={2}/>
              
             )
 

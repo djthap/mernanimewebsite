@@ -1,0 +1,27 @@
+@import "../../utils/default.css";
+
+.details_page{
+padding: 30px;
+color: var(--textColor1);
+    background-color: var(--backgroundColor2);
+    
+}
+.carosoul_size{
+    height: 450px;
+    width: 100%;
+}
+.details_box{
+    margin: 40px;
+    margin-top: 30px!important;
+    background-color: var(--backgroundColor2);
+ 
+}
+.heading{
+    text-transform: uppercase;
+}
+.video_section{
+
+    padding: 20px;
+    height: 600px;
+    width: 100%;
+}

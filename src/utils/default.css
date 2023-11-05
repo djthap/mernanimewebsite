@@ -1,12 +1,14 @@
 :root {
-    /* --backgroundColor1: #11151C ;
-	--backgroundColor2: #212D40;
-	--textColor1: #364156;
-	--textColor2: #b7c4cf; */
+    /* --backgroundColor1: #212529 ,#343a40 ,#495057, #6c757d ,#adb5bd , #ced4da ,#dee2e6 ,#e9ecef ,#f8f9fa ;
+*/
 
-    --backgroundColor1: black ;
-	--backgroundColor2: #7D7C7C;
-	--backgroundhighlighing:#CCC8AA;
-	--textColor1: #ffff;
-	--textColor2: black;
+    --backgroundColor1: #212529 ;
+	--backgroundColor2: #495057;
+	--backgroundColor3: #343a40;
+	--backgroundhighlighing:blueviolet;
+	--textColor1: #ced4da;
+	--textColor2: #343a40;
+
+
+
 }

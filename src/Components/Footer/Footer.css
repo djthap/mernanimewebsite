@@ -6,13 +6,13 @@
     /* height: 20vh; */
    
   
-    background-color:var(--backgroundhighlighing);
+    background-color: var(--backgroundColor1);
 }
 /* ==========================================
     FOR DEMO PURPOSE
   ========================================== */
   body {
-    background: var(--backgroundhighlighing);
+    background-color: var(--backgroundColor1);
   }
   
   .text-small {
@@ -31,16 +31,16 @@
   }
   
   .form-control {
-    background: var(--backgroundhighlighing);
+    background-color: var(--backgroundColor1);
   
   }
   
   .form-control:focus {
-    background: var(--backgroundhighlighing);
+    background-color: var(--backgroundColor1);
   }
   
   footer {
-    background: var(--backgroundhighlighing);
+    background-color: var(--backgroundColor1);
   
     color: var(--textColor2);
   }
