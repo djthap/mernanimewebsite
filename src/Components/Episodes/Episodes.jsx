@@ -2,6 +2,7 @@ import React from 'react';
 import TablePagination from '@mui/material/TablePagination'; // Import the TablePagination component
 import Episodes_Body from '../episodesBody/Episodes_Body';
 import "./Episodes.css"
+import Loader from '../Loader/Loader';
 
 export default function Episodes({ animeDetails }) {
   const [page, setPage] = React.useState(0);
@@ -40,7 +41,7 @@ export default function Episodes({ animeDetails }) {
         />
       </div>
       ) : (
-        "Loading"
+        <Loader/>
       )}
     </div>
   );

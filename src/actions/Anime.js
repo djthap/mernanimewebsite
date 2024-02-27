@@ -4,7 +4,7 @@ import Theme from "../utils/Config"
 export async function SearchAnime(data){
     try{ 
         
-        const response = await axios.get(`${Theme.url}/meta/anilist/info/${data}?provider={9anime}        `,  {
+        const response = await axios.get(`${Theme.url2}/meta/anilist/info/${data}?provider={gogoanime}        `,  {
             headers: {
             'Content-Type': 'application/json'
             }
@@ -177,7 +177,7 @@ export async function getMangaData(){
 const USER_AGENT = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36";
 export async function getAnimeVideoLink(id){
     try {
-        const data = await axios.get(`${Theme.url}/anime/gogoanime/watch/${id}`, {
+        const data = await axios.get(`${Theme.url2}/anime/gogoanime/watch/${id}`, {
             
         });
         return data.data;

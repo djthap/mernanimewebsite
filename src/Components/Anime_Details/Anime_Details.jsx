@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Anime_Details.css"
+import Loader from '../Loader/Loader'
 
 function Anime_Details({animeDetails}) {
   return (
@@ -39,7 +40,7 @@ function Anime_Details({animeDetails}) {
 						</div>
 			) : (
 				<div className="text-align-center">
-					<h1>Loading....</h1>
+					<Loader/>
 				</div>
 			)}
 		</div>
