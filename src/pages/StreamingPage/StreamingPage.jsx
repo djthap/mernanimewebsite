@@ -45,7 +45,7 @@ function StreamingPage() {
 					/>
 				</div>
 			) : (
-				<div>Loading</div>
+				<div><Loader/></div>
 			)}
 		</div>
 	)
