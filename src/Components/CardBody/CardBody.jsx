@@ -10,7 +10,7 @@ console.log(d ,"the data")
     <div className={`col-md-${size?size:2} col-lg-${size?size:2}  col-sm-${size?size:2} box `} key={index} >
       <Link href={`/details/${d.id}`}>
       
-      <div className=" cardBody">
+      <div className=" cardBody2">
                   <Card className=" bg_card cardBody">
 <div className=" justify-content-end d-flex">
  <p className="rating_title ">
